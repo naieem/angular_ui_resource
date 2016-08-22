@@ -1,0 +1,18 @@
+<div>
+    <div ui-view></div>
+    <h2>{{home.item}}</h2>
+    <a ui-sref="home.naieem">Sho</a>
+    <form name="add_item">
+        <input type="text" ng-model="item" name="item">{{item}}
+        <br>
+        <input type="submit" value="add" ng-click="home.add()">
+    </form>
+    {{home.naieem}}
+    <p>
+    </p>
+    <ul>
+        <li ng-repeat="x in home.items track by $index">
+            {{ x }}
+        </li>
+    </ul>
+</div>

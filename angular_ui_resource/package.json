@@ -1,0 +1,35 @@
+{
+  "name": "angular_ui_router",
+  "version": "1.0.0",
+  "description": "hello worl",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naieem/angular_ui.git"
+  },
+  "author": "naieem mahmud supto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naieem/angular_ui/issues"
+  },
+  "homepage": "https://github.com/naieem/angular_ui#readme",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-mocks": "^1.5.8",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "jasmine-core": "^2.4.1",
+    "jshint": "^2.9.2",
+    "karma": "^1.1.2",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1"
+  }
+}
